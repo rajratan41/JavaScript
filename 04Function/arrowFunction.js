@@ -30,13 +30,13 @@
 
 // Make a Program of Sum of numbers using Arrow Function
 
-const sumOfAll = (...args) => {
-    let sum = 0;
-    for (let element of args) {
-        sum = sum + element;
-    }
-    return sum;
-}
+// const sumOfAll = (...args) => {
+//     let sum = 0;
+//     for (let element of args) {
+//         sum = sum + element;
+//     }
+//     return sum;
+// }
 
-let holdValue = sumOfAll (1,2,3,4,5,6,7,8,9);
-console.log(holdValue);
+// let holdValue = sumOfAll (1,2,3,4,5,6,7,8,9);
+// console.log(holdValue);
