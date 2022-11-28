@@ -67,11 +67,33 @@
 
 // MAP
 //
-let number = [1, 2, 3, 4, 5, 6];
-let store = number.map ((num) => num * num);
-console.log(store);
+// let number = [1, 2, 3, 4, 5, 6];
+// let store = number.map ((num) => num * num);
+// console.log(store);
 
 //
-let names = ["Raj ratan", "Raj kamal", "amit", "rahul"];
-let store1 = names.map ((nam) => nam.toUpperCase());
-console.log(store1);
+// let names = ["Raj ratan", "Raj kamal", "amit", "rahul"];
+// let store1 = names.map ((nam) => nam.toUpperCase());
+// console.log(store1);
+
+
+// Filter
+
+// let country = ["India", "japan", "Ireland", "Kenya", "Canada", "Indonesia"];
+
+// let store2 = country.filter((con) => con.includes("I"));
+// console.log(store2);
+
+// let store = country.filter((con) => con.length === 5);
+// console.log(store);
+
+
+// Reduce
+// Syntax- arrayName.reduce((acc, curr) => {}, value )
+
+let num = [1, 2, 3, 4, 5, 6, 7];
+// let sum = num.reduce ((acc, cur) => acc + cur, 0);
+// console.log(sum);   // 28
+
+let sum = num.reduce ((acc, cur) => acc + cur, 2);
+console.log(sum);  // 30
