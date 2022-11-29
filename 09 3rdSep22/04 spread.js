@@ -1,4 +1,4 @@
-// Spread
+// Spread Operator-
 
 function sum (x, y) {
     return x + y;
