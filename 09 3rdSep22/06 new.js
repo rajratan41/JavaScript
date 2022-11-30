@@ -80,3 +80,18 @@ console.log(newmap);
 
 // Getter - (get) = to get the value
 console.log(newmap.get("India"));
+
+// key
+for (let key of newmap.keys()) {
+    console.log(`key is : ${key}`);
+}
+
+// value
+for (let value of newmap.values()) {
+    console.log(`Value is ${value}`);
+}
+
+// Both Key and Value 
+for (let [key, value] of newmap) {
+    console.log(`key is : ${key} and value is : ${value}`);
+}
