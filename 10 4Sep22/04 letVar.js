@@ -22,3 +22,18 @@
 // 
 //      }
 // }
+
+
+//  Example
+
+// console.log(a);   // access
+// let a = 10;  // Initialization
+
+// it will give error a can't be access before initialization
+
+// let a = 10;  // Initialize
+// console.log(a);  // access
+
+// result = 10
+
+// First Initialize then acces here we did
