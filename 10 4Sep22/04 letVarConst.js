@@ -42,6 +42,9 @@
 
 // First Initialize then access
 
+
+
+
 // Const - As soon as something is declared as Const it is mandatory to initialize value on the spot
 
 // example - 
