@@ -12,5 +12,7 @@ class UserOne {
     }
 }
 
-class UserTwo extends UserOne
+class UserTwo extends UserOne {
+    
+}
         
