@@ -1,0 +1,1 @@
+// Inheritance - When any class or any object is able to access  other class, object, method is called Inheritance
