@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-2</title>
+</head>
+<body>
+
+    <!-- Finding HTML Element => id, className, tagName, querySelector, querySelectorAll -->
+
+    <!-- Id selector -->
+    <h1 id="hello"><span> hye </span>Hello JavaScript</h1>
+
+    <!-- querySelector -->
+    <h2>Hello World</h2>
+    <h2 id="aman">Hello Aman</h2>
+    <h2>Hello Raj</h2>
+    <p class="name">hello raj ratan</p>
+    <p>hello JavaScript</p>
+    
+    <!-- Class selector -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+
+    <script>
+        // Finding the Element
+        
+        // 1. ID
+        
+        // let val = document.getElementById("hello");
+        // console.log(val)
+        // console.log(val.innerHTML)
+        // console.log(val.innerText)
+
+        // 2. ClassName
+
+        // let val = document.getElementsByClassName("tech");
+        // console.log(val)
+        // console.log(val[2].innerHTML)
+
+        // 3. tagName
+
+        // let val = document.getElementsByTagName("h2");
+        // console.log(val);
+        // console.log(val[0].innerText);
+        // console.log(val[2].innerText);
+
+        // 4. querySelector -> selects HTML Element by TagName, ID, ClassName
+
+        // querySelctorAll - select all p tag
+        // let val = document.querySelectorAll("p");
+        // console.log(val);
+        // console.log(val[1].innerText);
+        
+        // querySelector
+        
+        // 1. TagName
+
+        // let val = document.querySelector("p").innerText;
+        // console.log(val);
+
+        // 2.ID
+
+        // let val = document.querySelector("#aman");
+        // console.log(val.innerText);
+
+        // 3. className
+
+        // let val = document.querySelector(".name");
+        // console.log(val.innerText);
+
+    </script>
+</body>
+</html>
