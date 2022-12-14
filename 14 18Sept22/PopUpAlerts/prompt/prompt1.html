@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt - Popup Alert</title>
+</head>
+<body>
+    <h1>Hello Developer</h1>
+    <p id="js"></p>
+
+    <!-- Prompt ("Your Text", "default value - either you write or leave empty") -->
+    <script>
+        // Example-1
+        let val = prompt ("Please Solve 20-10", "0");
+        if (val == 10) {
+            document.querySelector("#js").innerText = "Ticket Booked Successfully!";
+        } else {
+            document.querySelector("#js").innerText = "Failed to Book";
+        };
+    </script>
+</body>
+</html>
