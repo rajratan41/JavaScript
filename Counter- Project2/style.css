@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    color: #0d31e6;
+}
+.btn {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.increase {
+    position: absolute;
+    margin-top: 25%;
+    margin-right: 15%;
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.reset {
+    position: absolute;
+    margin-top: 25%;
+    background-color: #fed299;
+    color: #000000;
+}
+
+.decrease {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 25%;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+
+#value {
+    font-size: 50px;
+}
